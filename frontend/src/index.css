@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ochre: #c5832b;
+  --color-ochre-dark: #a86d1f;
+  --color-input-gray: #d9d9d9;
+  --color-filter-bg: #e8d4a8;
+  --font-serif: Georgia, "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  color: #000;
+  background-color: #fff;
+}
